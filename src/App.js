@@ -49,7 +49,7 @@ const handleSubmit= async(e)=>{
     navigate('/')
     }
     catch(err){
-        console.log(`Error :${err.Message}`)
+      console.log(`Error :${err.Message}`)
     }
     }
 const handleDelete= async(id)=>{
